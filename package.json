@@ -1,0 +1,31 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@clerk/clerk-expo": "^1.2.1",
+    "@expo/metro-runtime": "~3.2.1",
+    "@types/react": "~18.2.79",
+    "expo": "^51.0.13",
+    "expo-image": "~1.12.11",
+    "expo-secure-store": "^13.0.1",
+    "expo-splash-screen": "^0.27.5",
+    "expo-status-bar": "~1.12.1",
+    "expo-web-browser": "~13.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-web": "~0.19.10",
+    "typescript": "~5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
