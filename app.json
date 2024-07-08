@@ -1,5 +1,6 @@
 {
-  "expo": {
+  "expo": 
+  {
     "name": "TestApp",
     "slug": "TestApp",
     "version": "1.0.0",
@@ -22,6 +23,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow EV Station App to use your location."
+        }
+      ]
+    ]
   }
 }
